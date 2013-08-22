@@ -1,0 +1,5 @@
+name: daaaag.
+markdown: redcarpet
+pygments: false
+
+permalink: /:year/:month/:day/:title.html
