@@ -1,13 +1,14 @@
 ---
 layout: default
-title: daaang.
+title: On Life and Technology
 ---
 
 <div id="home">
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <a href="{{ post.url }}" class="bitter">{{ post.title }}</a>
       <div class="post">{{ post.content }}</div>
+      <p class="meta">posted on {{ post.date | date_to_string }}</p><br/>
     {% endfor %}
   </ul>
 </div>

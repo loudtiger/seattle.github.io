@@ -22,12 +22,26 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
-h1 { margin-bottom: 1em; }
+h1 {
+	margin-bottom: 1em;
+	text-align: center;
+}
+h1 .oldstandard {
+	font-family: 'Old Standard TT', serif; 
+	color: #000;
+}
+
+h1 .bitter { 
+	font-family: 'Bitter', serif; 
+	color: #000;
+	font-size: 40px;
+}
+
 p { margin: 1em 0; }
 
 a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a:hover   { color: #a0a; }
+a:visited { color: #000; }
 
 /*****************************************************************************/
 /*
@@ -41,6 +55,12 @@ ul.posts {
 
 ul.posts li {
   line-height: 1.75em;
+}
+
+ul.bitter {
+	font-family: 'Bitter', serif; 
+	color: #000;
+	font-size: 20px;
 }
 
 ul.posts span {
@@ -57,8 +77,8 @@ ul.posts span {
 
 .site {
   font-size: 115%;
-  text-align: justify;
-  width: 42em;
+  width: 85%;
+  max-width: 62em;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -88,6 +108,10 @@ ul.posts span {
 
 .site .header a.extra:hover {
   color: #000;
+}
+
+.site .content {
+	text-align: left;
 }
 
 .site .meta {
@@ -136,6 +160,13 @@ ul.posts span {
 
 .post ul, .post ol {
   margin-left: 1.35em;
+}
+
+.content .bitter {
+	font-family: 'Bitter', serif; 
+	color: #000;
+	font-size: 14px;
+	font-weight: 1000;
 }
 
 .post code {

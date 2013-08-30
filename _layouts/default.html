@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+		<link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:400italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Bitter:700' rel='stylesheet' type='text/css'>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
@@ -18,25 +20,21 @@
         <div class="container">
           <div class="site">
             <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+              <h1 class="title">
+				  <a href="/">
+					  <span class="oldstandard">On </span>
+					  <span class="center">
+						  <span class="bitter">Life </span>
+						  <span class="oldstandard"> and </span>
+						  <span class="bitter"> Technology</span>
+					  </span>
+				  </a>
+				</h1>
             </div>
-
+			<div class="content">
                 {{ content }}
-
-            <div class="footer"> <!--
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>-->
+			</div>
+            <div class="footer"> 
             </div>
           </div>
         </div> <!-- /container -->
